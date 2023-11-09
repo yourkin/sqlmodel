@@ -1,0 +1,219 @@
+repo_name: yourkin/sqlmodel
+report_id: dfb8417bedf81777a7ee1af381f4b7f1
+repo_type: Public
+timestamp: '2023-11-09T17:49:12+00:00'
+requested_by: tiangolo
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: ".github/actions/watch-previews/Dockerfile"
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 14:05:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 18:14:33.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/SQLAlchemy
+  version: 1.4.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 18:42:52.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/black
+  version: '21.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/coverage
+  version: '5.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: fastapi
+  description: FastAPI framework
+  package_url: https://pypi.org/fastapi
+  version: 0.68.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/flake8
+  version: 3.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 14:02:21.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/isort
+  version: 5.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 18:14:33.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/mypy
+  version: '0.812'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/pydantic
+  version: 1.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/pytest
+  version: 6.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Sebastián Ramírez
+  last_updated_on: 2021-08-24 13:20:54.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
