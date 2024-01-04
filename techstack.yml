@@ -1,7 +1,8 @@
 repo_name: yourkin/sqlmodel
 report_id: dfb8417bedf81777a7ee1af381f4b7f1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:49:12+00:00'
+timestamp: '2024-01-04T15:08:45+00:00'
 requested_by: tiangolo
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/yourkin/sqlmodel
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -26,7 +28,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
-  detection_source: ".github/actions/watch-previews/Dockerfile"
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/.github/actions/comment-docs-preview-in-pr/Dockerfile
+  detection_source: ".github/actions/comment-docs-preview-in-pr/Dockerfile"
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 14:05:55.000000000 Z
 - name: Git
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yourkin/sqlmodel
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -46,7 +50,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/.github/workflows/build-docs.yml
+  detection_source: ".github/workflows/build-docs.yml"
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 18:14:33.000000000 Z
 - name: PyPI
@@ -57,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
@@ -69,10 +75,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/yourkin/sqlmodel
   detection_source: Repo Metadata
 - name: SQLAlchemy
   description: Database Abstraction Library
-  package_url: https://pypi.org/SQLAlchemy
+  package_url: https://pypi.org/project/SQLAlchemy
   version: 1.4.17
   license: MIT
   open_source: true
@@ -80,13 +87,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 18:42:52.000000000 Z
 - name: black
   description: The uncompromising code formatter
-  package_url: https://pypi.org/black
+  package_url: https://pypi.org/project/black
   version: '21.5'
   license: MIT
   open_source: true
@@ -94,13 +101,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: coverage
   description: Code coverage measurement for Python
-  package_url: https://pypi.org/coverage
+  package_url: https://pypi.org/project/coverage
   version: '5.5'
   license: Apache-2.0
   open_source: true
@@ -108,13 +115,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: fastapi
   description: FastAPI framework
-  package_url: https://pypi.org/fastapi
+  package_url: https://pypi.org/project/fastapi
   version: 0.68.0
   license: MIT
   open_source: true
@@ -122,13 +129,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: flake8
   description: 'The modular source code checker: pep8, pyflakes and co'
-  package_url: https://pypi.org/flake8
+  package_url: https://pypi.org/project/flake8
   version: 3.9.2
   license: MIT
   open_source: true
@@ -136,13 +143,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 14:02:21.000000000 Z
 - name: isort
   description: A Python utility / library to sort Python imports
-  package_url: https://pypi.org/isort
+  package_url: https://pypi.org/project/isort
   version: 5.9.3
   license: MIT
   open_source: true
@@ -150,13 +157,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 18:14:33.000000000 Z
 - name: mypy
   description: Optional static typing for Python
-  package_url: https://pypi.org/mypy
+  package_url: https://pypi.org/project/mypy
   version: '0.812'
   license: MIT
   open_source: true
@@ -164,13 +171,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: pydantic
   description: Data validation and settings management using python 3.6 type hinting
-  package_url: https://pypi.org/pydantic
+  package_url: https://pypi.org/project/pydantic
   version: 1.8.2
   license: MIT
   open_source: true
@@ -178,13 +185,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: pytest
   description: 'Pytest: simple powerful testing with Python'
-  package_url: https://pypi.org/pytest
+  package_url: https://pypi.org/project/pytest
   version: 6.2.4
   license: MIT
   open_source: true
@@ -192,13 +199,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   version: 2.26.0
   license: Apache-2.0
   open_source: true
@@ -206,7 +213,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/yourkin/sqlmodel/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Sebastián Ramírez
   last_updated_on: 2021-08-24 13:20:54.000000000 Z
