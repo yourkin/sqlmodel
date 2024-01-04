@@ -1,32 +1,36 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 yourkin/sqlmodel is built on the following main stack:
+
 - [Python](https://www.python.org) – Languages
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 yourkin/sqlmodel is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [yourkin/sqlmodel](https://github.com/yourkin/sqlmodel)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|16<br/>Tools used|11/09/23 <br/>Report generated|
+|16<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -100,18 +104,18 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[SQLAlchemy](https://pypi.org/SQLAlchemy)|v1.4.17|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[black](https://pypi.org/black)|v21.5|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[coverage](https://pypi.org/coverage)|v5.5|08/24/21|Sebastián Ramírez |Apache-2.0|N/A|
-|[fastapi](https://pypi.org/fastapi)|v0.68.0|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[flake8](https://pypi.org/flake8)|v3.9.2|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[isort](https://pypi.org/isort)|v5.9.3|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[mypy](https://pypi.org/mypy)|v0.812|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[pydantic](https://pypi.org/pydantic)|v1.8.2|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[pytest](https://pypi.org/pytest)|v6.2.4|08/24/21|Sebastián Ramírez |MIT|N/A|
-|[requests](https://pypi.org/requests)|v2.26.0|08/24/21|Sebastián Ramírez |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
+|[SQLAlchemy](https://pypi.org/project/SQLAlchemy)|v1.4.17|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[black](https://pypi.org/project/black)|v21.5|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[coverage](https://pypi.org/project/coverage)|v5.5|08/24/21|Sebastián Ramírez |Apache-2.0|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.68.0|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[flake8](https://pypi.org/project/flake8)|v3.9.2|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[isort](https://pypi.org/project/isort)|v5.9.3|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[mypy](https://pypi.org/project/mypy)|v0.812|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[pydantic](https://pypi.org/project/pydantic)|v1.8.2|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[pytest](https://pypi.org/project/pytest)|v6.2.4|08/24/21|Sebastián Ramírez |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.26.0|08/24/21|Sebastián Ramírez |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
